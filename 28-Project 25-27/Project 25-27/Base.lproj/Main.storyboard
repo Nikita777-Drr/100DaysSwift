@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="1FB-Wp-xuk">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Project_25_27" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="JLf-KD-QOf">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="822"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="822" id="b2R-qy-Vbk"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AVN-hF-gyh">
+                                <rect key="frame" x="20" y="831" width="100" height="31"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="o2L-A5-BGR"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="17"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Import">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ESh-hn-L2q">
+                                <rect key="frame" x="157" y="831" width="100" height="31"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="17"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="TopText">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="by4-2b-eVv">
+                                <rect key="frame" x="294" y="831" width="100" height="31"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="17"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="BottomText">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="MhT-Zk-bT5">
+                                <rect key="frame" x="0.0" y="119" width="414" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="onZ-p6-Utu"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="CO5-ME-Uf2">
+                                <rect key="frame" x="0.0" y="579" width="414" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="60G-lL-Ob5"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="JLf-KD-QOf" firstAttribute="trailing" secondItem="MhT-Zk-bT5" secondAttribute="trailing" id="4K1-K3-K4e"/>
+                            <constraint firstItem="JLf-KD-QOf" firstAttribute="centerX" secondItem="ESh-hn-L2q" secondAttribute="centerX" id="6pQ-fZ-isT"/>
+                            <constraint firstItem="JLf-KD-QOf" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="9lO-Mj-C2d"/>
+                            <constraint firstItem="JLf-KD-QOf" firstAttribute="trailing" secondItem="CO5-ME-Uf2" secondAttribute="trailing" id="CFb-9a-pFR"/>
+                            <constraint firstItem="AVN-hF-gyh" firstAttribute="top" secondItem="JLf-KD-QOf" secondAttribute="bottom" constant="9" id="CJE-bb-hTb"/>
+                            <constraint firstItem="AVN-hF-gyh" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="DLV-Of-RkF"/>
+                            <constraint firstItem="JLf-KD-QOf" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Hl1-PQ-bVk"/>
+                            <constraint firstItem="JLf-KD-QOf" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="-88" id="JOf-l4-SeR"/>
+                            <constraint firstAttribute="bottom" secondItem="CO5-ME-Uf2" secondAttribute="bottom" constant="189" id="Ltq-U9-b8A"/>
+                            <constraint firstItem="JLf-KD-QOf" firstAttribute="leading" secondItem="CO5-ME-Uf2" secondAttribute="leading" id="NCu-Rn-sBz"/>
+                            <constraint firstItem="MhT-Zk-bT5" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="31" id="Szm-0G-YuH"/>
+                            <constraint firstItem="by4-2b-eVv" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="Vv8-wN-JyP"/>
+                            <constraint firstItem="AVN-hF-gyh" firstAttribute="baseline" secondItem="by4-2b-eVv" secondAttribute="baseline" id="bMG-T6-lCd"/>
+                            <constraint firstItem="by4-2b-eVv" firstAttribute="leading" secondItem="ESh-hn-L2q" secondAttribute="trailing" constant="37" id="d5V-W3-KP3"/>
+                            <constraint firstItem="AVN-hF-gyh" firstAttribute="baseline" secondItem="ESh-hn-L2q" secondAttribute="baseline" id="oTh-f9-M1T"/>
+                            <constraint firstItem="JLf-KD-QOf" firstAttribute="leading" secondItem="MhT-Zk-bT5" secondAttribute="leading" id="oWe-3j-7EF"/>
+                            <constraint firstItem="ESh-hn-L2q" firstAttribute="leading" secondItem="AVN-hF-gyh" secondAttribute="trailing" constant="37" id="w9w-Ql-Cp2"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="c2u-xH-3tj"/>
+                    <connections>
+                        <outlet property="imageBottom" destination="CO5-ME-Uf2" id="1no-jk-jdv"/>
+                        <outlet property="imageTop" destination="MhT-Zk-bT5" id="Sl2-I3-rrE"/>
+                        <outlet property="imageView" destination="JLf-KD-QOf" id="1Yh-tv-Jc9"/>
+                        <outlet property="importImage" destination="AVN-hF-gyh" id="eoD-MU-GqF"/>
+                        <outlet property="textBottom" destination="by4-2b-eVv" id="ZAX-Yq-CFT"/>
+                        <outlet property="textTop" destination="ESh-hn-L2q" id="htT-8k-BNJ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="944.92753623188412" y="97.767857142857139"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="bjy-Ya-5u5">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="1FB-Wp-xuk" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="M0i-aR-uVy">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="iAK-Gi-w7y"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wi8-qX-XTj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="34.782608695652179" y="97.767857142857139"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
